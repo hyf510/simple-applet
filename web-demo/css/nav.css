@@ -1,0 +1,44 @@
+.nav {
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width:100%;
+    border:1px solid #757e85;
+    background-color: #757e85;
+    border-radius:3px;
+    margin:10px 0;
+}
+.nav ul {
+    display: inline-block;
+    width:75%;
+}
+.nav ul li {
+    list-style-type: none;
+}
+.logo {
+    display: inline-block;
+    background: url("../images/logo.png");
+}
+.nav-default {
+    display: inline-block;
+    width:10%;
+    height:15px;
+    line-height:15px;
+    text-align: center;
+}
+.border-right {
+    border-right: 2px solid #ffffff;
+}
+.err-tip {
+    width:100%;
+    color:red;
+}
+.marquee {
+    width:1000px;
+    height:30px;
+    margin:0 auto;
+}
+.que {
+    width:95%;
+    vertical-align: top;
+}

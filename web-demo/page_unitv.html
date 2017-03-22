@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><img src="images/logo.png" alt=""/></div>
+        <ul>
+            <li class="nav-default border-right">用户轨迹</li>
+            <li class="nav-default border-right">性能分析</li>
+            <li class="nav-default border-right">统计分析</li>
+            <li class="nav-default border-right">任务派发</li>
+            <li class="nav-default border-right">监控控制</li>
+            <li class="nav-default">帮助</li>
+        </ul>
+    </nav>
+    <div class="err-tip">
+        <div class="marquee">
+            <img src="images/phone.png"/>
+            <marquee behavior="" direction="" class="que">
+                <span>警告 ：2017-04-23 10:23:35至2017-04-23 15:00:10</span>
+                <span>警告 ：2017-04-23 10:23:35至2017-04-23 15:00:10</span>
+                <span>警告 ：2017-04-23 10:23:35至2017-04-23 15:00:10</span>
+            </marquee>
+            <img src="images/launch.png"/>
+        </div>
+    </div>
+    <section>
+        <!-- 右侧查询信息列表-->
+        <div class="search left">
+            <div>
+                <h3 class="search-default">设置查询条件</h3>
+                <ul>
+                    <li>
+                        <span>产品号</span>
+                        <select name="" id="productType" class="condition">
+                            <option value="iLoanBT">新战略</option>
+                            <option value="goodHouse">房交所</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>用户ID</span>
+                        <input type="text" class="condition"/>
+                    </li>
+                    <li>
+                        <span>手机号</span>
+                        <input type="tel" class="condition"/>
+                    </li>
+                    <li>
+                        <span>起始日</span>
+                        <input type="date" class="condition"/>
+                    </li>
+                    <li>
+                        <span>结束日</span>
+                        <input type="date" class="condition"/>
+                    </li>
+                </ul>
+                <!-- 执行按钮-->
+                <div class="btn-warp">
+                    <div class="btn">重置</div>
+                    <div class="btn">确定</div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="search-default">查询结果：<span><strong>35条</strong></span></h3>
+                <ol class="result">
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                    <li class="list"><span>2017-04-23 10:23:35</span><span>至</span><span>2017-04-23 15:00:10</span></li>
+                </ol>
+            </div>
+        </div>
+        <!-- 左侧信息详情窗 -->
+        <ul class="trajectory left">
+            <li class="container">
+                <div>
+                    <div class="time-node">
+                        <span>10:00:23</span>
+                    </div>
+                    <div class="axis">
+                        <div class="line left-line"></div>
+                        <div class="circle"></div>
+                        <div class="line right-line"></div>
+                    </div>
+                    <ul class="data-show">
+                        <li>
+                            <dl>
+                                <dt>Address：</dt>
+                                <dd>get-city-support.html</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Event：</dt>
+                                <dd class="tap">Tap</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt li &gt 武汉市 &lt /li &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="next" class="btn-txt btn-dis" &gt 下一步 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:05:02</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="subminIndentity" class="btn" &gt 提交 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:11:15</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="_papc_confirm_box_ok" class="btn-pop" &gt 确定 &lt /div &gt</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>EDO：</dt>
+                                <dd class="edo">查看</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Interface：</dt>
+                                <dd class="urlDemo">
+                                    URL：login.do
+                                </dd>
+                                <dd class="detailed" style="display: none">
+                                    <div>
+                                        <p>基本信息</p>
+                                        <table>
+                                            <tr>
+                                                <td>URL</td>
+                                                <td>http://test-papc-gs.pingan.com.cn:8080/api/</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PROTOCOL</td>
+                                                <td>HTTPS</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="H5-data">
+                                        <p>入参</p>
+                                        <table>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="SS-data">
+                                        <p>返回数据</p>
+                                        <table>
+                                            <tr>
+                                                <td>flag</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>msg</td>
+                                                <td>请求成功！</td>
+                                            </tr>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>custName</td>
+                                                <td>刘明回</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isLife</td>
+                                                <td>N</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isYzt</td>
+                                                <td>Y</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mobilephone</td>
+                                                <td>15006180030</td>
+                                            </tr>
+                                            <tr>
+                                                <td>paperType</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>sex</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ssoTicket</td>
+                                                <td>M0QOMu_tTdTF6G7xl94MUBbw!8ozy</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="container">
+                <div>
+                    <div class="time-node">
+                        <span>10:02:15</span>
+                    </div>
+                    <div class="axis">
+                        <div class="line left-line"></div>
+                        <div class="circle"></div>
+                        <div class="line right-line"></div>
+                    </div>
+                    <ul class="data-show">
+                        <li>
+                            <dl>
+                                <dt>Address：</dt>
+                                <dd>get-city-support.html</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Event：</dt>
+                                <dd class="tap">Tap</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt li &gt 武汉市 &lt /li &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="next" class="btn-txt btn-dis" &gt 下一步 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:05:02</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="subminIndentity" class="btn" &gt 提交 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:11:15</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="_papc_confirm_box_ok" class="btn-pop" &gt 确定 &lt /div &gt</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>EDO：</dt>
+                                <dd class="edo">查看</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Interface：</dt>
+                                <dd class="urlDemo">
+                                    URL：login.do
+                                </dd>
+                                <dd class="detailed" style="display: none">
+                                    <div>
+                                        <p>基本信息</p>
+                                        <table>
+                                            <tr>
+                                                <td>URL</td>
+                                                <td>http://test-papc-gs.pingan.com.cn:8080/api/</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PROTOCOL</td>
+                                                <td>HTTPS</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="H5-data">
+                                        <p>入参</p>
+                                        <table>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="SS-data">
+                                        <p>返回数据</p>
+                                        <table>
+                                            <tr>
+                                                <td>flag</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>msg</td>
+                                                <td>请求成功！</td>
+                                            </tr>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>custName</td>
+                                                <td>刘明回</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isLife</td>
+                                                <td>N</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isYzt</td>
+                                                <td>Y</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mobilephone</td>
+                                                <td>15006180030</td>
+                                            </tr>
+                                            <tr>
+                                                <td>paperType</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>sex</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ssoTicket</td>
+                                                <td>M0QOMu_tTdTF6G7xl94MUBbw!8ozy</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="container">
+                <div>
+                    <div class="time-node">
+                        <span>10:04:00</span>
+                    </div>
+                    <div class="axis">
+                        <div class="line left-line"></div>
+                        <div class="circle warning"></div>
+                        <div class="line right-line"></div>
+                    </div>
+                    <ul class="data-show warning">
+                        <li>
+                            <dl>
+                                <dt>Address：</dt>
+                                <dd>get-city-support.html</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Event：</dt>
+                                <dd class="tap">Tap</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt li &gt 武汉市 &lt /li &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="next" class="btn-txt btn-dis" &gt 下一步 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:05:02</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="subminIndentity" class="btn" &gt 提交 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:11:15</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="_papc_confirm_box_ok" class="btn-pop" &gt 确定 &lt /div &gt</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>EDO：</dt>
+                                <dd class="edo">查看</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Interface：</dt>
+                                <dd class="urlDemo">
+                                    URL：login.do
+                                </dd>
+                                <dd class="detailed" style="display: none">
+                                    <div>
+                                        <p>基本信息</p>
+                                        <table>
+                                            <tr>
+                                                <td>URL</td>
+                                                <td>http://test-papc-gs.pingan.com.cn:8080/api/</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PROTOCOL</td>
+                                                <td>HTTPS</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="H5-data">
+                                        <p>入参</p>
+                                        <table>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="SS-data">
+                                        <p>返回数据</p>
+                                        <table>
+                                            <tr>
+                                                <td>flag</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>msg</td>
+                                                <td>请求成功！</td>
+                                            </tr>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>custName</td>
+                                                <td>刘明回</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isLife</td>
+                                                <td>N</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isYzt</td>
+                                                <td>Y</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mobilephone</td>
+                                                <td>15006180030</td>
+                                            </tr>
+                                            <tr>
+                                                <td>paperType</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>sex</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ssoTicket</td>
+                                                <td>M0QOMu_tTdTF6G7xl94MUBbw!8ozy</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="container">
+                <div>
+                    <div class="time-node">
+                        <span>10:05:10</span>
+                    </div>
+                    <div class="axis">
+                        <div class="line left-line"></div>
+                        <div class="circle"></div>
+                        <div class="line right-line"></div>
+                    </div>
+                    <ul class="data-show">
+                        <li>
+                            <dl>
+                                <dt>Address：</dt>
+                                <dd>get-city-support.html</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Event：</dt>
+                                <dd class="tap">Tap</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt li &gt 武汉市 &lt /li &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="next" class="btn-txt btn-dis" &gt 下一步 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:05:02</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="subminIndentity" class="btn" &gt 提交 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:11:15</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="_papc_confirm_box_ok" class="btn-pop" &gt 确定 &lt /div &gt</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>EDO：</dt>
+                                <dd class="edo">查看</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Interface：</dt>
+                                <dd class="urlDemo">
+                                    URL：login.do
+                                </dd>
+                                <dd class="detailed" style="display: none">
+                                    <div>
+                                        <p>基本信息</p>
+                                        <table>
+                                            <tr>
+                                                <td>URL</td>
+                                                <td>http://test-papc-gs.pingan.com.cn:8080/api/</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PROTOCOL</td>
+                                                <td>HTTPS</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="H5-data">
+                                        <p>入参</p>
+                                        <table>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="SS-data">
+                                        <p>返回数据</p>
+                                        <table>
+                                            <tr>
+                                                <td>flag</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>msg</td>
+                                                <td>请求成功！</td>
+                                            </tr>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>custName</td>
+                                                <td>刘明回</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isLife</td>
+                                                <td>N</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isYzt</td>
+                                                <td>Y</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mobilephone</td>
+                                                <td>15006180030</td>
+                                            </tr>
+                                            <tr>
+                                                <td>paperType</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>sex</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ssoTicket</td>
+                                                <td>M0QOMu_tTdTF6G7xl94MUBbw!8ozy</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="container">
+                <div>
+                    <div class="time-node">
+                        <span>10:06:29</span>
+                    </div>
+                    <div class="axis">
+                        <div class="line left-line"></div>
+                        <div class="circle red"></div>
+                        <div class="line right-line"></div>
+                    </div>
+                    <ul class="data-show red">
+                        <li>
+                            <dl>
+                                <dt>Address：</dt>
+                                <dd>get-city-support.html</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Event：</dt>
+                                <dd class="tap">Tap</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt li &gt 武汉市 &lt /li &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:02:35</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="next" class="btn-txt btn-dis" &gt 下一步 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:05:02</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="subminIndentity" class="btn" &gt 提交 &lt /div &gt</span>
+                                        </li>
+                                        <li>
+                                            <span>10:11:15</span>&nbsp;&nbsp;&nbsp;<span>&lt div id="_papc_confirm_box_ok" class="btn-pop" &gt 确定 &lt /div &gt</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>EDO：</dt>
+                                <dd class="edo">查看</dd>
+                                <dd class="detailed" style="display: none">
+                                    <ul>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                        <li>
+                                            <span>iBT-0303010102-确认借款:</span>
+                                            <span>iBT-0303010102-借款失败</span>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Interface：</dt>
+                                <dd class="urlDemo">
+                                    URL：login.do
+                                </dd>
+                                <dd class="detailed" style="display: none">
+                                    <div>
+                                        <p>基本信息</p>
+                                        <table>
+                                            <tr>
+                                                <td>URL</td>
+                                                <td>http://test-papc-gs.pingan.com.cn:8080/api/</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PROTOCOL</td>
+                                                <td>HTTPS</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="H5-data">
+                                        <p>入参</p>
+                                        <table>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="SS-data">
+                                        <p>返回数据</p>
+                                        <table>
+                                            <tr>
+                                                <td>flag</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>msg</td>
+                                                <td>请求成功！</td>
+                                            </tr>
+                                            <tr>
+                                                <td>accountId</td>
+                                                <td>YZT-333931402392399894</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cardId</td>
+                                                <td>362331196010182250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>custName</td>
+                                                <td>刘明回</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isLife</td>
+                                                <td>N</td>
+                                            </tr>
+                                            <tr>
+                                                <td>isYzt</td>
+                                                <td>Y</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mobilephone</td>
+                                                <td>15006180030</td>
+                                            </tr>
+                                            <tr>
+                                                <td>paperType</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>sex</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ssoTicket</td>
+                                                <td>M0QOMu_tTdTF6G7xl94MUBbw!8ozy</td>
+                                            </tr>
+                                            <tr>
+                                                <td>token</td>
+                                                <td>16c0394f99454330a0d45d4ea00ed7c8</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="js/pageUnitv.js"></script>
+</body>
+</html>
