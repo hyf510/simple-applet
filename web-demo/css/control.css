@@ -1,0 +1,33 @@
+.control {
+    width:300px;
+    margin: 0 auto;
+}
+.code {
+    margin:0 5px;
+}
+.lis {
+    padding:2px;
+    list-style-type: none;
+}
+.opt {
+    padding:0 5px;
+    border:1px solid #dddddd;
+}
+.key {
+    height:30px;
+    line-height: 30px;
+    display: inline-block;
+}
+.submit {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    width:50%;
+    height:35px;
+    line-height:35px;
+    text-align: center;
+    margin:0 auto;
+    border:1px solid #e4393c;
+    background:#e4393c;
+    border-radius:10px;
+}
