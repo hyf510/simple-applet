@@ -1,9 +1,13 @@
 .control {
     width:300px;
-    margin: 0 auto;
+    margin: 7rem auto;
 }
 .code {
-    margin:0 5px;
+    width: 40%;
+    margin:0 0.5rem;
+}
+.create {
+    margin-left: 0.5rem;
 }
 .lis {
     padding:2px;

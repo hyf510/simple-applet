@@ -1,0 +1,83 @@
+body {
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family: Arial,DroidSans,"苹果-黑体";
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.warning {
+    border-color: yellow !important;
+}
+.red {
+    border-color: red !important;
+}
+
+/*页面头部*/
+.head {
+    width:100%;
+    height: 4rem;
+    position: fixed;
+    top:0;
+    z-index: 99999;
+    background: #1D365D;
+}
+.logo {
+    float: left;
+    width: 15%;
+    height: 4rem;
+    margin-right: 1rem;
+    background: url("../images/logo.png") no-repeat;
+}
+.head-default {
+    float: left;
+    width:13%;
+    height:4rem;
+    margin-right: 1rem;
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 4rem;
+}
+/*滚动展示*/
+.err-tip {
+    color:red;
+    width:100%;
+    margin: 5rem auto;
+    margin-bottom: 0;
+}
+.marquee {
+    width:75%;
+    height:2rem;
+    margin:0 auto;
+}
+.que {
+    width:95%;
+    vertical-align: top;
+}
+/*信息展示*/
+.section {
+    width:98%;
+    height: 30rem;
+    margin:0 auto;
+}
+/*页面底部*/
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:2rem;
+    margin-top: 1rem;
+    background: #000;
+}
