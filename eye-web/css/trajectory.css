@@ -1,3 +1,25 @@
+/*滚动展示*/
+.err-tip {
+    color:red;
+    width:100%;
+    margin: 5rem auto;
+    margin-bottom: 0;
+}
+.marquee {
+    width:75%;
+    height:2rem;
+    margin:0 auto;
+}
+.que {
+    width:95%;
+    vertical-align: top;
+}
+/*信息展示*/
+.section {
+    width:98%;
+    height: 30rem;
+    margin:0 auto;
+}
 .search {
     float: left;
     width: 23%;
@@ -28,9 +50,6 @@
     border:1px solid green;
     border-radius:20%
 }
-.result {
-
-}
 .list{
     height: 1.2rem;
 }
@@ -41,14 +60,11 @@
     overflow: auto;
     border:1px solid #ddd;
 }
-
-/*每个li样式*/
 .container {
     display: inline-block;
-    margin-top:20px;
+    margin-top:0.8rem;
     float:left;
     width:200px;
-    height:300px;
 }
 /*顶部时间节点样式*/
 .time-node{
@@ -82,23 +98,92 @@
     border:3px solid green;
     border-radius:50%
 }
-/*数据展示样式*/
-.data-show {
-    width:70%;
-    margin:10px auto;
+.content {
+    width:80%;
+    padding:0.2rem 0.4rem;
+    margin:0.8rem auto;
     border:2px solid #dddddd;
 }
-/*埋点数据展示窗*/
-.detailed {
-    position:absolute;
+.shrink-switch {
+    display:inline-block;
+    width: 100%;
+    text-align: right;
+}
+.highlight {
+    color:green;
+    font-weight: bold;
+}
+.lamp {
+    display: inline-block;
+    width:0.5rem;
+    height:0.5rem;
+    margin-right: 0.3rem;
+    border:2px solid #ddd;
+    border-radius: 50%;
+}
+.correct {
+    background: green;
+}
+.warning {
+    background: yellow;
+}
+.error {
+    background: red;
+}
+.no-record {
+    background: #ffffff;
+}
+
+/*信息展示浮窗*/
+.info-view {
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 200;
+    right: 10rem;
+    bottom:2.5rem;
+    padding: 1rem;
+    width: 60%;
+    height: 27%;
     border:1px solid #dddddd;
-    border-radius:10px;
+    border-radius:0.8rem;
     background-color: black;
     opacity:0.6;
-    color:#ffffff;
-    font-size: 16px;
-    padding: 10px;
+    overflow: auto;
 }
-.detailed ul li {
-    height:25px;
+.info-nav {
+    border-bottom:2px solid #ffffff;
+}
+.info-default {
+    display: inline-block;
+    width:10%;
+    height:1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+.info-close {
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width:1.5rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    border:2px solid red;
+    border-radius: 20%;
+    background: red;
+    float: right;
+}
+.info-check {
+    color:#ffffff;
+}
+.info-record {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+.font-left {
+    text-align: left;
 }

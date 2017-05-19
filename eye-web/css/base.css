@@ -50,28 +50,6 @@ ul li {
     text-align: center;
     line-height: 4rem;
 }
-/*滚动展示*/
-.err-tip {
-    color:red;
-    width:100%;
-    margin: 5rem auto;
-    margin-bottom: 0;
-}
-.marquee {
-    width:75%;
-    height:2rem;
-    margin:0 auto;
-}
-.que {
-    width:95%;
-    vertical-align: top;
-}
-/*信息展示*/
-.section {
-    width:98%;
-    height: 30rem;
-    margin:0 auto;
-}
 /*页面底部*/
 .foot {
     position: fixed;
