@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天眼展示系统</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/msan.css"/>
+</head>
+<body>
+<div class="head">
+    <div class="logo"></div>
+    <ul>
+        <li class="head-default">Home</li>
+        <li class="head-default">Capability</li>
+        <li class="head-default">Msan</li>
+        <li class="head-default">Control</li>
+        <li class="head-default">Help</li>
+    </ul>
+</div>
+<section>
+    <div class="msan">
+        <div class="access-top">
+            <dl style="display: inline-block">
+                <dt><strong>接入文档</strong></dt>
+                <dd>1：采集系统流程图</dd>
+                <dd>2：采集系统接口文档</dd>
+                <dd>3：采集系统配置文档</dd>
+            </dl>
+            <dl style="display: inline-block;margin-left: 1rem">
+                <dt><strong>接入方式</strong></dt>
+                <dd>1：本地接入：需手动下载并配置相关文件，后续版本更新需重新下载最新的接入文件；</dd>
+                <dd>2：在线接入：无需手动下载相关文件，支持自动实时更新版本；</dd>
+                <dd>注意事项：部分功能需依赖jQuery或者Zepto</dd>
+            </dl>
+        </div>
+        <div class="access">
+            <div class="access-left">本地接入</div>
+            <div class="access-right">
+                <p>第一步：在Control中创建开关配置信息</p>
+                <p>第二步：下载gather.js文件</p>
+                <p>第三步：配置gather.js文件中config对象的APP相关属性【UPCCODE 产品编码、VERSION APP版本号】</p>
+                <p>第四步：项目入口文件中将用户登录账号本地存储与USER_LOGIN_INFO字段</p>
+                <p>第五步：在公共模块中引入gather.js文件，至此接入完成</p>
+            </div>
+            <div class="access-next">下载gather.js</div>
+        </div>
+        <div class="or">or</div>
+        <div class="access">
+            <div class="access-left">在线接入</div>
+            <div class="access-right">
+                <p>第一步：在Control中创建开关配置信息</p>
+                <p>第二步：点击右侧设置按钮，设置接入相关信息</p>
+                <p>第三步：获取接入链接地址，在项目中通过&ltscritp&gt标签引入gather.js文件，至此接入完成</p>
+            </div>
+            <div class="access-next">GO设置</div>
+        </div>
+    </div>
+</section>
+
+<div class="foot"></div>
+</body>
+</html>
